@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask
 from flask_socketio import SocketIO, join_room, leave_room, send
 
 app = Flask(__name__)

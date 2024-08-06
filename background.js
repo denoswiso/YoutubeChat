@@ -1,4 +1,4 @@
 chrome.runtime.onInstalled.addListener(() => {
-    console.log('Background script loaded');
+    console.log('Background service worker registered');
   });
   
